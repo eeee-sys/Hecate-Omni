@@ -49,3 +49,23 @@ DATA_PATH=/path/to/human_behavior_atlas \
 RUN_NAME=hecatepo_train \
 bash scripts/run_hecatepo.sh train
 ```
+### Examples
+
+https://github.com/user-attachments/assets/000a936d-2834-4798-88f5-3d7d52c58610
+```
+Question:
+How would you describe the emotional state of the speaker in the recording? Choose the most appropriate emotion from:
+anger,
+disgust,
+fear,
+happy,
+surprise,
+neutral,
+sad
+
+First reason briefly from the provided evidence. Enclose your reasoning in <think>...</think>. Then provide exactly one final answer in \boxed{...}. For classification, use exactly one of the requested labels. For open questions, give a concise, direct answer.
+
+Hecate-Omni:
+<think> The speaker sounds sad because they are expressing that everything is ruined, which is a sad situation. </think> sad \boxed{sad}
+```
+
