@@ -69,4 +69,4 @@ Hecate-Omni:
 <think> The speaker sounds sad because they are expressing that everything is ruined, which is a sad situation. </think> sad \boxed{sad}
 ```
 ## 📜 License
-Our project is under [MIT License]()
+Our project is under [MIT License](https://github.com/eeee-sys/Hecate-Omni/blob/main/LICENSE)
