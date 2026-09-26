@@ -1,6 +1,12 @@
 # Hecate-Omni: State-Aligned Hierarchical Credit Assignment for Multimodal Social Reasoning
 ## 👀 Hecate-Omni Overview
+<p align="center">
+    <img src="./assets/method.png" width="100%" height="100%">
+</p>
 
+<p align="center">
+    <img src="./assets/visualization.png" width="100%" height="100%">
+</p>
 
 #### 🌟 Contributions in Hecate-Omni
 
@@ -11,6 +17,13 @@
 ## 📈 Experimental Results
 
 #### 📍 Results
+<p align="center">
+    <img src="./assets/model.png" width="100%" height="100%">
+</p>
+
+<p align="center">
+    <img src="./assets/comparison.png" width="100%" height="100%">
+</p>
 
 ## ⭐ Training detail and evaluation
 
