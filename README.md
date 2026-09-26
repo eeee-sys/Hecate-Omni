@@ -18,6 +18,6 @@
 
 ### 🕹️ Training
 
-#### Prepare
+#### 📖 Prepare
 
 #### 🔥 Training
