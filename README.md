@@ -68,4 +68,5 @@ First reason briefly from the provided evidence. Enclose your reasoning in <thin
 Hecate-Omni:
 <think> The speaker sounds sad because they are expressing that everything is ruined, which is a sad situation. </think> sad \boxed{sad}
 ```
-
+## 📜 License
+Our project is under [MIT License]()
