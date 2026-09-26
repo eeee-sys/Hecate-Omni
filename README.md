@@ -28,9 +28,26 @@
 ## ⭐ Training detail and evaluation
 
 ### 🔮 Evaluation
-
-### 🕹️ Training
+```
+MODEL_PATH=/path/to/base_model \
+DATA_PATH=/path/to/human_behavior_atlas \
+ADAPTER=/path/to/checkpoint \
+EVAL_SPLIT=test EVAL_PER_DATASET=0 RUN_NAME=hecatepo_test \
+bash scripts/run_hecatepo.sh evaluate
+```
 
 #### 📖 Prepare
+Download the base model [OmniSapiens2.0](https://huggingface.co/HumanBehaviorAtlas/OmniSapiens2.0) and [Qwen2.5-Omni-7B](https://huggingface.co/Qwen/Qwen2.5-Omni-7B) from [huggingface](https://huggingface.co/)
+
+Prepare Hecate-Omni LoRA weights from [huggingface](https://huggingface.co/datasets/Harry-1234/Hecate-Omni)
+
+Prepare human-behavior-atlas data from [huggingface]([https://huggingface.co/datasets/Harry-1234/Hecate-Omni](https://huggingface.co/datasets/HumanBehaviorAtlas/human_behavior_atlas))
+### 🕹️ Training
+```
+MODEL_PATH=/path/to/base_model \
+DATA_PATH=/path/to/human_behavior_atlas \
+RUN_NAME=hecatepo_train \
+bash scripts/run_hecatepo.sh train
+```
 
 #### 🔥 Training
