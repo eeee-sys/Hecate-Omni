@@ -1,4 +1,7 @@
 # Hecate-Omni: State-Aligned Hierarchical Credit Assignment for Multimodal Social Reasoning
+<p align="center">
+  <a href="https://huggingface.co/datasets/Harry-1234/Hecate-Omni" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue">
+</p>
 ## 👀 Hecate-Omni Overview
 <p align="center">
     <img src="./assets/method.png" width="100%" height="100%">
