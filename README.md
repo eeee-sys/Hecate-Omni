@@ -41,13 +41,13 @@ Download the base model [OmniSapiens2.0](https://huggingface.co/HumanBehaviorAtl
 
 Prepare Hecate-Omni LoRA weights from [huggingface](https://huggingface.co/datasets/Harry-1234/Hecate-Omni)
 
-Prepare human-behavior-atlas data from [huggingface]([https://huggingface.co/datasets/Harry-1234/Hecate-Omni](https://huggingface.co/datasets/HumanBehaviorAtlas/human_behavior_atlas))
-### 🕹️ Training
+Prepare human-behavior-atlas data from [huggingface]([https://huggingface.co/datasets/Harry-1234/Hecate-Omni](https://huggingface.co/datasets/HumanBehaviorAtlas/human_behavior_atlas)
+### Training
+
+#### 🔥 Training
 ```
 MODEL_PATH=/path/to/base_model \
 DATA_PATH=/path/to/human_behavior_atlas \
 RUN_NAME=hecatepo_train \
 bash scripts/run_hecatepo.sh train
 ```
-
-#### 🔥 Training
